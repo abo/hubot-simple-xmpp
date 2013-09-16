@@ -1,0 +1,25 @@
+{
+  "name": "hubot-simple-xmpp",
+  "version": "0.0.1",
+  "author": "Abo(https://github.com/abo)",
+  "description": "XMPP adapter for Hubot.",
+  "keywords": ["hubot", "xmpp", "adapter"],
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abo/hubot-simple-xmpp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/abo/hubot-simple-xmpp/issues"
+  },
+  "main": "./src/hubot-simple-xmpp.coffee",
+  "dependencies": {
+    "simple-xmpp": ">=0.1.12"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.3",
+    "hubot": ">=2.4.1"
+  }
+}
