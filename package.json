@@ -1,6 +1,6 @@
 {
   "name": "hubot-simple-xmpp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Abo(https://github.com/abo)",
   "description": "XMPP adapter for Hubot.",
   "keywords": ["hubot", "xmpp", "adapter"],

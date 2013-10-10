@@ -25,7 +25,7 @@ class XMPPAdapter extends Adapter
       @robot.logger.info 'hubot online, ready to go!'
       if process.env.HUBOT_XMPP_ADMIN_JID
         xmpp.subscribe process.env.HUBOT_XMPP_ADMIN_JID
-        xmpp.send process.env.HUBOT_XMPP_ADMIN_JID, "I'm ready!"
+        # xmpp.send process.env.HUBOT_XMPP_ADMIN_JID, "I'm ready!"
 
     xmpp.on 'chat', (from, message) =>
       @robot.logger.debug "message received,#{from}: #{message}"
